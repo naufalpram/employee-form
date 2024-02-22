@@ -1,0 +1,86 @@
+:root {
+  /* Primary */
+  --Strong-cyan: hsl(172, 67%, 45%);
+
+  /* Neutral */
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+  --Dark-grayish-cyan: hsl(186, 14%, 43%);
+  --Grayish-cyan: hsl(184, 14%, 56%);
+  --Light-grayish-cyan: hsl(185, 41%, 84%);
+  --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input, select, textarea {
+  background-color: #F4FAFA !important;
+}
+
+input:hover, input:active, select:hover, select:active, textarea:hover, textarea:active {
+  border: 1.5px solid hsl(172, 67%, 45%);
+}
+
+button {
+  font-size: 19px;
+  background-color: var(--Strong-cyan);
+  color: white;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover, button:focus, button:active {
+  color: var(--Very-dark-cyan);
+  background-color: var(--Light-grayish-cyan);
+}
+
+/* Footer */
+.attribution {
+  bottom: 1rem;
+  right: 5rem;
+  font-size: 11px;
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  opacity: 0.5;
+}
+
+.attribution:hover {
+  opacity: 1;
+}
+
+.attribution a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100vw;
+  background: #c5e4e7;
+}
+
+.card {
+  background: #00494d;
+}
+
+.text-white {
+  color: white;
+}
+
+label {
+  color: white;
+}
